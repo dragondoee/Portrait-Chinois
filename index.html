@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Chivo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/nuit.svg" type="image/x-icon">
+    <title> Portrait Chinois - Emilie Desgranges </title>
+</head>
+<body>
+   
+    <header>
+        <!-- Page d'accueil -->
+        <h1>Emilie Desgranges - Portrait Chinois </h1>
+        <p class="moment" id="decouvrir"> Découvrir  </p>
+
+        <p class="info"> En savoir + </p>
+        <div class="cache contenuInfo">
+        <p> 
+            Je suis étudiante en 1ère année de BUT Métier du Multimédia et de l'Internet (2023-2024). 
+            <br>
+            Je réalise ce portrait chinois dans le cadre d'un projet scolaire (SAE 1.05). 
+            <br> <br>
+            Un portrait chinois est un jeu littéraire qui permet de découvrir et partager certains aspects de sa personnalité et ses goûts, en répondant à des questions sur le modèle "Si j'étais ... je serais...".
+        </p>
+        <p class="boutonFermerInfo"> X </p>
+        </div>
+
+    </header>
+
+    
+    <main> 
+        <img class="maison cache" src="image/maison.svg" alt="icône maison">
+        <!-- Contenue de la page  -->
+
+        <div class="listeAnalogies "></div>
+        
+    </main>
+
+    <!-- Navigation -->
+    <nav class="cache">
+        <ul></ul>
+    </nav>
+
+    
+
+    <footer>
+        <!-- Formulaire -->
+        <section class="cache " id="formulaire">
+        <form >
+            <fieldset>
+            <legend> Et toi ?</legend>
+        
+                <p>
+                    <label aria-describedby="analogieFormulaire" for="analogieFormulaire"> Si j'étais <span class="required">*</span> </label> <br>
+                    <input type="text" id="analogieFormulaire" name="analogie"  placeholder="ex: un animal">
+                </p>
+
+                <p>
+                    <label aria-describedby="valAnalogieFormulaire" for="valAnalogieFormulaire"> Je serais <span class="required">*</span> </label> <br>
+                    <input type="text" id="valAnalogieFormulaire" name="valAnalogie"  placeholder="ex: un pingouin">
+                </p>
+
+                <p>
+                    <label aria-describedby="imageFormulaire" for="imageFormulaire"> Image : </label> <br>
+                    <input type="url" id="imageFormulaire" name="image " placeholder=" URL image (.png .jpg ect...)">
+                </p>
+
+                <p>
+                    <label aria-describedby="explication" for="explication"> Justification</label> <br>
+                    <textarea name="explication" id="explication" cols="30" rows="10" placeholder="Car ..."></textarea>
+                </p>
+
+                <input type="button" name="envoyer" id="boutonFormulaire" value="Envoyer" >
+            </fieldset>
+            <p>Obligatoire : <span class="required">*</span></p>
+        </form>
+        <div class="UserPartie"></div>
+        
+        <!-- Pop-up réussite envoie formulaire -->
+        <div class="cache reussitFormulaire">
+            <p>Envoi réussi !</p>
+        </div>
+        
+        <!-- Mention légale -->
+
+        <p class="mentions"> Mentions Légales </p>
+        <div class="cache contenuMentions">
+            <h3>Mentions légales : </h3>
+            <p>
+                Emilie Desgranges, étudiante en première année MMI à l’université Gustave Eiffel.
+                <br><br>
+                <strong>Hébergeur :</strong> Université Gustave Eiffel - 2 rue Albert Einstein, 77420 Champs-sur-Marne, France
+                <br>
+                +33 1 60 95 75 00 - webmaster@univ-eiffel.fr
+                <br><br>
+                <strong>Illustration personnelles :</strong> Emilie DESGRANGES
+                <br><br>
+                <strong>Inspiration et code css pour le rond :</strong> <a href="https://www.youtube.com/watch?v=91Q6RvKvd7o" target="_blank" title="ouvrir dans un nouvel onglet">https://www.youtube.com/watch?v=91Q6RvKvd7o</a> 
+                <br><br>
+                <strong>Pinterest :</strong> <a href="https://www.pinterest.fr" target="_blank" title="ouvrir dans un nouvel onglet">https://www.pinterest.fr</a>
+                <br><br>
+                <strong>Législation des données à caractère personnel :</strong> 
+                <br> <br>
+                En appuyant sur envoyer vous donner votre consentement à l’envoyer les données du formulaire. 
+                Les données sont récupérées dans le cadre d’un projet scolaire, elles ne seront jamais transmises à des tiers et ne feront jamais l’objet d’une commercialisation.
+                <br> <br>
+                Les données seront conservées sur un serveur en France pour la durée maximale d’un an, mais elles seront supprimées à l’été 2024. Vous avez les droits d’accès, de rectification, d’effacement et à la limitation concernant vos données personnelles.
+                <br> <br>
+                Pour toutes questions ou actions vous pouvez contacter le responsable du traitement des données Philippe Gambette (<a href="mailto:philippe.gambette@univ-eiffel.fr" target="_blank" title="ouvrir dans un nouvel onglet">philippe.gambette@univ-eiffel.fr</a>).
+                Pour en savoir plus sur vos droits concernant vos données : <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" target="_blank" title="ouvrir dans un nouvel onglet"> RGPD</a> 
+
+                <br><br>
+                ©2024 Copyright Emilie Desgranges
+            </p>
+            <p class="boutonFermerMentions"> X </p>
+        </div>
+
+        
+    </section>
+        
+    
+
+    </footer>
+    
+
+     <!--  JS  -->
+     <script src="script.js"></script>
+
+</body>
+</html>

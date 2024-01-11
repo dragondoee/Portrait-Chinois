@@ -1,0 +1,58 @@
+[
+  {
+    "identifiant":"moment",
+    "analogie": "un moment de la journée",
+    "valeurAnalogie": "la nuit",
+    "justification":"J’ai toujours préféré la nuit aux autres moments de la journée. La lune à son apogée, les étoiles par milliers éclairent le ciel. Tout est calme la nuit, l’air est aussi plus frais. Je suis plus active quand le soleil se couche et je ne vois plus l’heure tourner. Ma productivité et ma créativité sont boostées. Ce sont également des moments que je prends pour moi, je peux me déconnecter de tout le reste. Je reste éveillée jusqu'à tard au détriment de ma matinée ou de mon sommeil.",
+    "image":"image/nuit.svg",
+    "couleur":"#233a7d"
+    
+  },{
+    "identifiant":"animal",
+    "analogie": "un animal",
+    "valeurAnalogie": "un chat",
+    "justification":"Tout comme le chat, je suis assez indépendante. J’apprécie être en compagnie des gens que j’aime mais à l’inverse je suis distante la plupart du temps, je n’aime pas qu’on me dérange. Quand je veux quelque chose, je peux me montrer assez têtue et finir par l’obtenir. Je m’adapte assez rapidement aux situations, je retombe toujours sur mes pattes, mais je préfère largement rester dans ma zone de confort.",
+    "image":"image/chat.svg",
+    "couleur":"#e8d7a7"
+    
+  },{
+    "identifiant":"reseau",
+    "analogie": "un réseau social",
+    "valeurAnalogie": "Pinterest",
+    "justification":"J’adore et je m'intéresse beaucoup à l'esthétique, la créativité et l'inspiration visuelle. Pinterest est un espace où l'on peut découvrir et partager des idées artistiques, des projets inspirants et des images magnifiques. Cela me permet de rassembler des idées, des concepts et des expériences qui stimulent l'imagination. Pinterest m’aide à améliorer mon quotidien et d'affiner certains aspects de mon identité.",
+    "image":"image/pinterest.svg",
+    "couleur":"#FEE2FF"
+  },{
+    "identifiant":"couleur",
+    "analogie": "une couleur",
+    "valeurAnalogie": "le rose",
+    "justification":"Les couleurs roses claires ou pâles transmettent la douceur, l'affection et le calme. Les couleurs plus éclatantes sont synonymes de dynamisme et de confiance en soi. L’expression voir la vie en rose associe également le rose au bonheur et à l'optimisme. Enfin le rose peut représenter la nature au printemps et les fleurs dont elle prend la couleur. Étant enfant, j’adorais cette couleur, j’ai fini par la détester avant de réapprendre à l’aimer. Si j’étais une couleur, je ne pourrais pas m’associer à une autre couleur que le rose.",
+    "image":"image/rose.svg",
+    "couleur":"#ff7bac"
+  },{
+    "identifiant":"role",
+    "analogie": "un rôle dans un film",
+    "valeurAnalogie": "un personnage secondaire",
+    "justification":"Je me vois comme quelqu'un qui joue un rôle discret mais important, toujours là en coulisses pour soutenir mes amis. Ma vie n'est peut-être pas aussi excitante que celle des autres, mais elle reste essentielle pour faire avancer l’histoire du ou des  personnages principaux de mon entourage. Mon rôle consiste à offrir un soutien solide, sans attendre de reconnaissance. Mon passé est un peu flou, mais il m'a appris à être là pour les autres, ajoutant ma contribution à leurs aventures sans chercher à me mettre en avant.",
+    "image":"image/hello.gif",
+    "couleur":"#DDA0DD"
+  },{
+    "identifiant":"vehicule",
+    "analogie": "un véhicule",
+    "valeurAnalogie": "un train",
+    "justification":"J’aime beaucoup prendre le train, plus particulièrement le TGV. Les vibrations des transports favorisent l’état de somnolence et les paysages qui défilent sont souvent variés, nouveaux ou beaux. Un combo qui selon moi est parfait pour se détendre. Je trouve que le contexte est également propice à l’imagination.",
+    "image":"image/train.svg",
+    "couleur":"#F27438"
+  },{
+    "identifiant":"meteo",
+    "analogie": "la météo",
+   "valeurAnalogie": "la neige",
+    "justification":"La neige me fascine et m’a toujours fasciné. Elle apporte le calme là où elle tombe, elle absorbe le bruit. Tout devient blanc, le lieu devient alors plus pur. Le temps semble s'arrêter quand on admire ces millions de flocons tomber du ciel. La neige captive mon attention, je pourrais la regarder pendant des heures.",
+    "image":"image/neige.svg",
+    "couleur":"#4AA3A2"
+  }
+]
+
+
+
+

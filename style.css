@@ -1,0 +1,380 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #141c33;
+    color: white;
+    background-image: url(image/fond-etoile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+  font-family: 'Acme', Helvetica, sans-serif;
+}
+
+p{
+  font-family: 'Chivo', Arial, sans-serif;
+}
+
+
+/* Page accueil */
+
+header h1{
+  text-align: center;
+  margin-top: 17%;
+  font-size: 2.5rem;
+  color: #cdd9ff;
+}
+
+header>p{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
+  border: solid 1px black;
+  border-radius: 12px ;
+  background-color: #05278d;
+  color: #cdd9ff;
+  transition: 0.5s;
+}
+
+header>p:hover{
+  background-color: #325fda;
+  cursor: default;
+  transition: 0.5s;
+}
+
+#decouvrir{
+  font-size: 2rem;
+  width: 220px;
+  margin-top: 3%;
+  padding: 20px;
+}
+
+#decouvrir:hover{
+  padding: 25px;
+}
+
+.info{
+  font-size: 1rem;
+  width: 120px;
+  margin-top: -1%;
+  padding: 10px;
+}
+
+.info:hover{
+  padding: 15px;
+}
+
+.contenuInfo{
+  position: absolute ;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+
+  font-size: 1.2rem;
+  padding: 30px;
+  width: 55%;
+
+  color: #001a66;
+  background-color:#8eaaff;
+  border: solid #001a66 3px;
+  border-radius: 20px;
+}
+
+.boutonFermerInfo{
+  position: absolute;
+  top: 0;
+  right: 2%;
+
+  border: solid 1px black;
+  border-radius: 7px ;
+  background-color: #05278d;
+  padding: 5px;
+  color: #cdd9ff;
+  width: 30px;
+  cursor: default;
+  transition: 0.5s;
+}
+
+.boutonFermerInfo:hover{
+  background-color: #1c50dd;
+  padding: 7px;
+  width: 33px;
+  transition: 0.5s;
+}
+
+
+/* Navigation */
+
+
+nav ul{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);  
+  white-space: nowrap;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  transition: 0.5s;
+  padding: 5px;
+}
+
+nav li:hover{
+  transform: translateY(-25%);
+}
+
+nav img{
+  width: 65px;
+}
+
+/* Contenue */
+
+.maison{
+  position: absolute;
+  width: 40px;
+  background-color: #1e41a8;
+  border: #1e41a8 solid 2px;
+  border-radius: 7px;
+  padding: 5px;
+
+  top: 5%;
+  left: 2%;
+  transition: 0.5s ;
+}
+.maison:hover{
+  background-color: #325fda;
+  width: 45px;
+  transition: 0.5s ;
+}
+
+main h2{
+  position: relative;
+  margin-left: 12%;
+  margin-top: 10%;
+  font-size: 2rem;
+  width: 60%;
+}
+
+main p{
+  position: relative;
+  margin-left: 8%;
+  width: 50%;
+  font-size: 1.1rem;
+}
+
+main img{
+  position: absolute;
+  right: 7%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25%;
+}
+
+#reseau img{
+  width: 22%;
+  top: 54%;
+  right: 6%;
+}
+
+/* Le code css de .cirlcleBottom vient de la vidéo : https://www.youtube.com/watch?v=91Q6RvKvd7o  */
+
+.circleBottom{
+  position: absolute;
+  z-index: -1;
+  background: #141c33;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(600px at right 800px);
+}
+
+
+
+/* Formulaire */
+
+form{
+  text-align: center;
+  background-color: #1e41a8;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  min-width: 300px;
+  padding: 1.2%;
+  border-radius: 100px ;
+}
+
+.formModifie{
+  text-align: center;
+  background-color: #1e41a8;
+  margin-top: 2%;
+  margin-left: 7%;
+  width: 20%;
+  padding: 1.5%;
+  border-radius: 100px ;
+}
+
+fieldset{
+  border: none;
+}
+
+textarea{
+  max-width: 200px;
+  min-width: 100%;
+  max-height: 250px;
+  height: 150px;
+  min-height: 100px;
+}
+
+legend{
+  font-family: 'Acme', Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#boutonFormulaire{
+  border: solid 1px black;
+  border-radius: 7px ;
+  background-color: #05278d;
+  padding: 8px;
+  color: #cdd9ff;
+  transition: 0.5s;
+}
+
+
+
+#boutonFormulaire:hover{
+  background-color: #1c50dd;
+  padding: 12px;
+  transition: 0.5s;
+}
+
+.required{
+  color: #ff6b6b;
+}
+
+.reussitFormulaire{
+  background-color: #cdd9ff;
+  color: black;
+  border: #001a66 1px solid;
+  padding: 2px;
+  border-radius: 7px;
+  width: 20%;
+  min-width: 300px;
+  margin-left: 7%;
+  text-align: center;
+}
+
+
+/* Partie User */
+
+#partieUser h2{
+  position: absolute;
+  right: 15%;
+  top: 7%;
+  width: 30%;
+}
+
+#partieUser p{
+  position: absolute;
+  right: 30%;
+  top: 15%;
+  text-align: center;
+}
+
+
+.imageUser{
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  width: 25%;
+}
+
+/* Mention légale */
+
+.mentions{
+  position: absolute;
+  left: 2%;
+  bottom: 1%;
+  border: solid 1px black;
+  border-radius: 7px ;
+  background-color: #1e41a8;
+  padding: 5px;
+  color: white;
+  transition: 0.5s;
+
+}
+
+.mentions:hover{
+  background-color: #67adfe;
+  cursor: default;
+  padding: 7px;
+  transition: 0.5s;
+}
+
+.contenuMentions{
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  background-color:#8eaaff;
+  padding: 40px;
+  border: solid #001a66 3px;
+  border-radius: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001a66;
+}
+
+
+.boutonFermerMentions{
+  position: absolute;
+  top: 0;
+  right: 2%;
+
+  border: solid 1px black;
+  border-radius: 7px ;
+  background-color: #05278d;
+  padding: 5px;
+  color: #cdd9ff;
+  width: 30px;
+  cursor: default;
+  transition: 0.5s;
+}
+
+
+.boutonFermerMentions:hover{
+  background-color: #1c50dd;
+  padding: 7px;
+  width: 33px;
+  transition: 0.5s;
+}
+
+/* Affichage */
+
+.cache{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+
